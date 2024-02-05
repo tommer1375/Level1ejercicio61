@@ -1,43 +1,40 @@
 
 
-public class NoGenericMethods<T> {
+    private String objectOne;
+    private String objectTwo;
+    private String objectThree;
 
-    private T objectOne;
-    private T objectTwo;
-    private T objectThree;
-
-   public NoGenericMethods(T objectOne, T objectTwo, T objectThree) {
+   public NoGenericMethods(String objectOne, String objectTwo, String objectThree) {
         this.objectOne = objectOne;
         this.objectTwo = objectTwo;
         this.objectThree = objectThree;
 
     }
 
-    public T getObjectOne() {
+    public String getObjectOne() {
         return objectOne;
     }
 
-    public T getObjectTwo() {
+    public String getObjectTwo() {
         return objectTwo;
     }
 
-    public T getObjectThree() {
+    public String getObjectThree() {
         return objectThree;
     }
 
-    public void setObjectOne(T newVariable) {
+    public void setObjectOne(String newVariable) {
         objectOne = newVariable;
 
     }
 
-    public void setObjectTwo(T newVariable) {
+    public void setObjectTwo(String newVariable) {
         objectTwo = newVariable;
     }
 
-    public void setObjectThree(T newVariable) {
+    public void setObjectThree(String newVariable) {
         objectThree = newVariable;
     }
 }
-
 
 
